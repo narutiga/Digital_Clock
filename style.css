@@ -16,14 +16,14 @@
 .clock {
   font-family: 'Share Tech Mono', monospace;
   color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6;
+  text-shadow: 0 0 20px #03f73c;
   line-height: 1.2;
   text-align: center;
 }
 
 /* 日付のスタイル */
 .clock-date {
-  font-size: 25px;
+  font-size: 50px;
 }
 
 /* 時間のスタイル */
@@ -34,7 +34,7 @@
 /* 文字サイズ調整 */
 @media screen and (max-width: 500px) {
   .clock-date {
-    font-size: 5vw;
+    font-size: 10vw;
   }
   .clock-time {
     font-size: 20vw;
